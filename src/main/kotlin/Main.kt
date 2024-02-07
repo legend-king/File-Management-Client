@@ -5,7 +5,7 @@ import java.net.Socket
 
 fun main() {
     try {
-        val socket = Socket("127.0.0.1",9998)
+        val socket = Socket("127.0.0.1",9999)
 //        println("Enter file path")
         sendFile(socket)
     } catch (e: Exception){
